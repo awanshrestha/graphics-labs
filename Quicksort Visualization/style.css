@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  color: rgb(211, 59, 85);
+  margin-bottom: 0px;
+}
+#container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+input[type='text']{
+  width: 100px;
+  padding: 8px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button{
+  width: 160px;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.5s ease-out;
+}
+
+.button1{
+  color: #4CAF50;
+  margin-right: 10px;
+}
+.button1:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.button2{
+  background-color: #4CAF50;
+}
+.button2:hover{
+  background-color: #29882d;
+}
